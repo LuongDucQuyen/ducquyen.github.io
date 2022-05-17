@@ -1,0 +1,53 @@
+.procedure{
+    width: 1200px;
+    margin: auto;
+    padding: 15px;
+    position: relative;
+}
+.procedure_details{
+    display: flex;
+    flex-wrap: wrap;
+}
+.procedure_Title{
+    font-size: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+.detailTitle{
+    font-size: 22px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.detailText{
+    font-size: 18px;
+    padding-bottom: 45px;
+}
+.detailImg{
+    max-width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+    border: 3px white solid;
+}
+@media screen and (min-device-width: 1024px) and (max-device-width: 1200px) {
+    .procedure{
+      width: 100%;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+    .procedure{
+      width: 100%;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-device-width: 768px){
+    .procedure{
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .detailImg{
+      max-width: 100%;
+    }
+  }
